@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.Day1"/>
+      <class name="test.Day2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="car_loan">
+  <classes>
+  <class name="test.Day3">
+  <methods>
+  	<include name="mobilelogincarloan"></include>
+  	
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+  
+  <test name="home_loan">
+  <classes>
+  <class name="test.Day4"/>
+  </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->
